@@ -1,0 +1,500 @@
+/* this is the navigation bar */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* background-color: #ed2525; */
+}
+
+.home{
+    background-color: #d1e70c;
+    color: #582222;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+} 
+ 
+.home-bar a {
+    color: #832b2b;
+    text-decoration: none;
+    font-size: 2rem;
+    text-transform: uppercase; 
+} 
+  
+.nav-bars {
+    list-style-type: none;
+    padding: 0;
+    flex-wrap: wrap;
+    flex-direction: column;
+    column-count: 1;
+    margin-left: 13rem;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 1rem;
+    text-transform: capitalize;
+    font-size: 1.1rem;
+}
+
+.bar{
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+    margin-left: 20rem;
+}
+  
+.bar a, .nav a {
+    display: inline-block;
+    color: #6d0a0a;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.bar a:hover{
+    color: rgb(148 66, 66); 
+}
+
+.class{
+    margin-left: 13rem;
+    text-transform: capitalize;
+}
+
+.nav1 li a{
+    color: rgb(148, 66, 66);
+    font-size: 1.1rem;
+}
+.nav1 {
+    list-style-type: none;
+    display: flex;
+}
+
+.nav-dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.nav-dropdown ul {
+    display: none;
+    position: absolute; 
+    z-index: 1;
+    background-color: #f3d6d6;
+    box-shadow: 0 8px 16px 0 rgba(56, 10, 1, 0.849);
+} 
+
+.nav-dropdown:hover ul {
+    display: block;
+}
+
+.nav-dropdown ul li {
+    list-style: none;
+    text-decoration: none;
+    color: #000;
+} 
+
+.nav-dropdown ul li:hover {
+    background-color: #ddd;
+} 
+
+.nav-dropdown a {
+    display: block;
+    text-decoration: none;
+    color: #000;
+    padding: 10px 14px;
+}
+
+.nav-dropdown a:hover {
+    background-color: #ddd;
+} 
+
+/* this is picture cali */
+.cali img{
+    position: relative;
+}
+.index1{
+    width: auto;
+    height: auto;
+    position: absolute;
+    left: 170px;
+    bottom: 15px;
+    z-index: 2;
+    color: white;
+    font-size: larger;
+    margin-bottom: 5rem;
+}
+.index1 h1{
+    background-color: rgb(1, 9, 34);
+    font-size: 4rem;
+    margin: 5px;
+   
+}
+.index1 h2{
+    background-color: rgb(4, 1, 41);
+    font-size: 4rem;
+}
+.index{
+    width: auto;
+    height: auto;
+    position: absolute;
+    left: 170px;
+    bottom: 15px;
+    z-index: 1;
+    color: white;
+    font-size: larger;
+    scroll-margin-block-start: 15rem;
+    background-color: rgb(2, 2, 48);
+}
+
+/* this section is for day 1 */
+.day1{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(248, 128, 148);
+}
+.day2 h1{
+    text-align: center;
+    justify-content: left;
+    font-size: 3.5rem;
+    padding-left: 4rem;
+}
+.day2 p{
+    font-size: 1.3rem;
+    padding-left: 3rem;
+    margin-top: 4rem;
+}
+button{
+    width: 41%;
+    height: 11%;
+    border: 2px solid palegreen;
+    margin-left: 2.5rem;
+    margin-top: 6rem;
+} 
+ .navi a{
+    background-color: white;
+    color: black;
+    text-transform: lowercase;
+}
+/* this section is for campuses */
+.campuses{
+    display: flex;
+    padding-top: 3rem;
+    font-size: 1.5rem;
+}
+.campuses p{
+    padding-top: 1rem;
+    margin-left: 12rem;
+}
+
+/* this section is for container0 */
+.container0{
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+}
+.container h3{
+    font-size: 39px;
+}
+.academic{
+    justify-content: space-around;
+    background-color: blue;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+    height: 29rem;
+    line-height: 2rem;
+}
+.academic1{
+    justify-content: space-around;
+    background-color: rgb(214, 5, 110);
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+    line-height: 2rem;
+}
+.academic2{
+    justify-content: space-around;
+    background-color: rgba(4, 117, 170, 0.986);
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+    line-height: 2rem;
+}
+
+
+
+
+#accordion-div{
+    display: block;
+    padding: 16px;
+    border: 2px;
+    border-bottom: solid 1px black;
+}
+
+#campus-text {
+    font-size: 20px;
+    cursor: pointer;
+}
+
+
+#sign{
+    content: '\002B';
+    color: #777;
+    font-weight: bold;
+    float: right;
+}
+
+.active:after {
+    content: "\2212";
+}
+
+#sub-menu {
+    display: none;
+    /* display: flex;  */
+    flex-wrap: wrap;
+    flex-direction: row;
+    transition: 2s;
+}
+
+.CU{
+    font-size: 1.1rem;
+    line-height: 2rem;
+}
+
+#uc{
+    font-size: larger;
+    display: flex;
+    flex-wrap: wrap;
+    column-count: 5;
+    justify-content: center;
+}
+
+#uc li{
+    color: rgb(177, 25, 25); 
+    list-style: none;
+    width: 200px;
+    height: 90px;
+    margin: 10px;
+    text-align: center;
+    padding-top: 30px;
+}
+
+#uc a{
+    color: rgb(228, 143, 15);
+    text-decoration: none;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+
+/* Change this color to the desired hover color for red */
+#red{
+    border-bottom: solid 9px rgb(119, 17, 17);
+}
+#red:hover {
+    background-color: rgb(119, 17, 17);
+}
+
+/* Change this color to the desired hover color for red */
+#pink{
+    border-bottom: 9px solid pink;
+}
+#pink:hover {
+    background-color: pink;
+}
+
+ /* Change this color to the desired hover color for pink */
+#purple{
+    border-bottom: 9px solid purple; 
+}
+#purple:hover {
+    background-color: purple;
+}
+
+ /* Change this color to the desired hover color for pink */
+#green{
+    border-bottom: 9px solid green; 
+}
+#green:hover {
+    background-color: green;
+}
+
+ /* Change this color to the desired hover color for pink */
+#pich{
+    border-bottom: 9px solid #ff99b4; 
+}
+#pich:hover {
+    background-color:  #ff99b4;
+}
+
+ /* Change this color to the desired hover color for pink */
+#yellow{
+    border-bottom: 9px solid yellow;
+} 
+#yellow:hover {
+ background-color: yellow;
+}
+
+ /* Change this color to the desired hover color for pink */
+#white{
+    border-bottom: 9px solid rgba(192, 183, 183, 0.897);
+}
+#white:hover {
+    background-color: rgba(192, 183, 183, 0.897);
+}
+
+
+#orange{
+    border-bottom: 9px solid orange; /* Change this color to the desired hover color for orange */
+}
+#orange:hover {
+    background-color: orange;
+}
+
+
+#brown{
+    border-bottom: 9px solid brown; /* Change this color to the desired hover color for brown */
+}
+#brown:hover {
+    background-color: brown;
+}
+
+
+#black{
+    border-bottom: 9px solid black;
+    color: white; /* Change this color to the desired hover color for black */
+}
+#black:hover {
+    background-color: black;
+    color: white;
+}
+
+
+/* this is for accordion2 */
+#accordion2{
+    display: block;
+    padding: 19px;
+    border: 2px;
+    border-bottom: solid 1px black;
+} 
+.class{
+    margin-left: 600px;
+}
+#Academic {
+    font-size: 20px;
+    cursor: pointer;
+}
+
+
+/* this is accordion 3 */
+#accordion3{
+    display: block;
+    padding: 19px;
+    border: 2px;
+    border-bottom: solid 1px black;
+}
+#national{
+    font-size: 20px;
+    cursor: pointer;
+}
+.managing{
+    margin-left: 600px;
+}
+
+/* this is accordion4 */
+#accordion4{
+    display: block;
+    padding: 19px;
+    border: 2px;
+    border-bottom: solid 1px black;
+} 
+.start{
+    margin-left: 600px;
+}
+#Agric{
+    font-size: 20px;
+    cursor: pointer;
+}
+/* this is accordion5 */
+#accordion5{
+    display: block;
+    padding: 19px;
+    border: 2px;
+    border-bottom: solid 1px black;
+} 
+.close{
+    margin-left: 600px;
+}
+#education{
+    font-size: 20px;
+    cursor: pointer;
+}
+/* this is accordion6 */
+#accordion6{
+    display: block;
+    padding: 19px;
+    border: 2px;
+    border-bottom: solid 1px black;
+} 
+.help{
+    margin-left: 600px;
+}
+#publish{
+    font-size: 20px;
+    cursor: pointer;
+}
+/* this is accordion7 */
+#accordion7{
+    display: block;
+    padding: 19px;
+    border: 2px;
+    border-bottom: solid 1px black;
+} 
+#Abroad{
+    margin-left: 600px;
+}
+#Other{
+    font-size: 20px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+/* this is the footer */
+
+.container1{
+    display: flex;
+    background-color: #1e5080; 
+    font-size: 1.rem;
+    color: white;
+    justify-content: space-around;
+}
+
+.last-page{
+    font-size: 1.3rem;
+    line-height: 3rem;
+} 
+
+.pagelast{
+    padding-top: 9rem;
+} 
+
+.access a{
+    text-decoration: none;
+    color: white;
+}
+
+.page2{
+    display: flex;
+    justify-content: space-around;
+    font-size: 1rem;
+    padding-top: 10rem;
+    padding-bottom: 11rem;
+    line-height: 3rem;
+}
+
+.page2 a{
+    text-decoration: none;
+    color: white;
+}
+
+
+.page3{
+    padding-left: 3rem;
+}

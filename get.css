@@ -1,0 +1,25 @@
+#sub-menu {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease;
+}
+
+/* Rotate the sign span when the sub-menu is expanded */
+#accordion-div.active #sign {
+    transform: rotate(45deg);
+}
+
+/* Change the color of the sign when hovered */
+#accordion-div:hover #sign {
+    color: red; /* Change this color as desired */
+}
+
+/* Apply transition to the color property of each list item */
+#uc li {
+    transition: color 0.3s ease;
+}
+
+/* Change the color of list items when hovered */
+#uc li:hover {
+    color: blue; /* Change this color as desired */
+}

@@ -1,0 +1,386 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.home{
+    background-color: #d1e70c;
+    color: #582222;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+} 
+
+   
+.home-bar a {
+    color: #832b2b;
+    text-decoration: none;
+    font-size: 2rem;
+    text-transform: uppercase; 
+} 
+  
+
+.nav-bars {
+    list-style-type: none;
+    padding: 0;
+    flex-wrap: wrap;
+    flex-direction: column;
+    column-count: 1;
+    margin-left: 13rem;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 1rem;
+    text-transform: capitalize;
+    font-size: 1.1rem;
+}
+
+.bar{
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+    margin-left: 20rem;
+}
+  
+.bar a, .nav a {
+    display: inline-block;
+    color: #6d0a0a;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.bar a:hover{
+    color: rgb(148 66, 66); 
+}
+
+.class{
+    margin-left: 13rem;
+    text-transform: capitalize;
+}
+
+.nav1 li a{
+    color: rgb(148, 66, 66);
+    font-size: 1.1rem;
+}
+.nav1 {
+    list-style-type: none;
+    display: flex;
+}
+
+.nav-dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.nav-dropdown ul {
+    display: none;
+    position: absolute; 
+    z-index: 1;
+    background-color: #f3d6d6;
+    min-width: 180PX;V
+    box-shadow: 0 8px 16px 0 rgba(56, 10, 1, 0.849);
+} 
+
+.nav-dropdown:hover ul {
+    display: block;
+}
+
+.nav-dropdown ul li {
+    list-style: none;
+    text-decoration: none;
+    color: #000;
+} 
+
+.nav-dropdown ul li:hover {
+    background-color: #ddd;
+} 
+
+.nav-dropdown a {
+    display: block;
+    text-decoration: none;
+    color: #000;
+    padding: 10px 14px;
+}
+
+.nav-dropdown a:hover {
+    background-color: #ddd;
+} 
+/* this section is for video */
+video{
+    position: relative;
+    height: auto;
+    margin: 0;
+}
+
+
+
+.z-index{
+    width: auto;
+    height: auto;
+    position: absolute;
+    left: 170px;
+    bottom: 15px;
+    z-index: 1;
+}
+
+.item3{
+    display: flex;
+    justify-content: center;
+    margin-top: -4px;
+}
+.item{
+    width: 100%;
+    text-wrap: wrap;
+    background-color: rgb(64, 203, 228);
+    font-size: 20px;
+    padding-top: 5rem;
+    padding-left: 4rem;
+}
+
+.rew{
+    font-size: 33px; 
+    padding-bottom: 30px;
+}
+.uc{
+    font-size: large;
+    background-color: #0d0136;
+    color: white;
+}
+
+.item4{
+    background-color: rgb(247, 44, 78);
+    display: flex;
+    margin-top: -4px;
+
+}
+.cal img{
+    margin-left: 5rem;
+}
+
+.p{
+    border: 1px solid saddlebrown;
+    background-color: #0cdddd;
+    text-align: center;
+    font-size: xx-large;
+    padding: 3rem;
+}
+
+.campus-walk img{
+     margin-left: 5rem;
+     width: 80%;
+}
+
+.head{
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+}
+.p2{
+    border: 1px solid #0cdddd;
+    background-color: goldenrod;
+    text-align: center;
+    font-size: x-large;
+    height: 45%;
+    width: 60%;
+    margin-left: 10rem;
+}
+
+.item5{
+    display: flex;
+    justify-content: space-around ;
+    background-color: #020127;
+    color: #edecf5;
+    font-size: 2rem;
+    padding-top: 5rem;
+    padding-bottom: 4rem;
+
+}
+
+.item6{
+    background-color: rgb(12, 117, 236);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+.campus h1{
+    font-size: bold;
+    margin: 4rem 3rem;
+}
+
+.item6 img{
+    width: 90%;
+    height: 50%;
+    align-items: center;
+}
+.map img{
+    width: 800px;
+    height: 500px;
+    margin-left: 200px;
+}
+
+.item7{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 5rem 4rem;
+    background-color: white;
+}
+
+.item7 p{
+    font-size: xx-large;
+}
+
+.item8{
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    font-size: 20px;
+}
+
+.tem1{
+    background-color: rgb(106, 120, 253);
+    justify-content: space-around;
+    color: black;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+    margin-bottom: 2rem;
+    line-height: 4rem;
+}
+
+.tem2{
+    background-color: rgb(252, 235, 7);
+    color: black;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+    margin-bottom: 2rem;
+    line-height: 4rem;
+}
+
+
+.tem3{
+    background-color: rgb(243, 6, 124);
+    color: black;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+    margin-bottom: 2rem;
+    line-height: 4rem;
+}
+
+
+.tem h1{
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+}
+
+.container{
+    display: flex;
+    background-color: #1e5080; 
+    font-size: 1.rem;
+    color: white;
+    justify-content: space-around;
+}
+
+.page h1{
+    font-size: 1.6rem;
+}
+.last-page{
+    font-size: 1.3rem;
+    line-height: 3rem;
+} 
+
+.pagelast{
+    padding-top: 9rem;
+} 
+
+.access a{
+    text-decoration: none;
+    color: white;
+}
+
+.page2{
+    display: flex;
+    justify-content: space-around;
+    font-size: 1rem;
+    padding-top: 10rem;
+    padding-bottom: 11rem;
+    line-height: 3rem;
+}
+
+.page2 a{
+    text-decoration: none;
+    color: white;
+}
+
+
+.page3{
+    padding-left: 3rem;
+} 
+
+/* Media queries for smaller screens */
+@media only screen and (max-width: 768px) {
+    
+    .home {
+        flex-direction: column;
+        padding: 5px;
+    }
+
+    .nav-bars {
+        margin-left: 0;
+    }
+
+    .bar {
+        margin-left: 0;
+    }
+
+    .bar a,
+    .nav a {
+        display: block;
+        margin: 5px 0;
+    }
+
+    .nav-dropdown ul {
+        min-width: auto;
+        box-shadow: none;
+    }
+
+    .map img {
+        width: 100%;
+        height: auto;
+        margin-left: 0;
+    }
+
+    .pagelast {
+        padding-top: 5rem;
+    }
+}
+
+/* Media queries for medium-sized screens */
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+    .home {
+        flex-direction: row;
+        padding: 10px;
+    }
+
+    .nav-bars {
+        margin-left: 5rem;
+    }
+
+    .bar {
+        margin-left: 10rem;
+    }
+}
+
+/* Media queries for large screens */
+@media only screen and (min-width: 1025px) {
+    .home {
+        padding: 20px;
+    }
+
+    .nav-bars {
+        margin-left: 13rem;
+    }
+
+    .bar {
+        margin-left: 20rem;
+    }
+}

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="input.css">
+</head>
+<body>
+        <!-- <div class="view-content">
+            <div class="view-grouping">
+                <div class="view-grouping-header">Campuses</div>
+                    <div class="view-grouping-content">  
+                        <h3>
+                            <p>Nine UC campuses offer undergraduate and graduate education; one (UC San Francisco) is graduate/professional only. Other educational centers reach across California and beyond.</p>
+                            
+                            <p>All UC campuses offering undergraduate education use the same application for undergrads.</p>
+                        </h3>
+                        <div class="location-category-2870 views-row">
+                            <div class="views-field views-field-title"><span class="field-content"><a href="https://www.berkeley.edu/">UC Berkeley</a></span></div>
+                        </div>
+                        <div class="location-category-2870 views-row">
+                            <div class="views-field views-field-title"><span class="field-content"><a href="https://www.ucdavis.edu/">UC Davis</a></span></div>
+                        </div>
+                    
+                        <div class="location-category-2870 views-row">  
+                            <div class="views-field views-field-title"><span class="field-content"><a href="https://uci.edu/">UC Irvine</a></span></div>
+                        </div>
+                    
+                        <div class="location-category-2870 views-row">
+                            <div class="views-field views-field-title"><span class="field-content"><a href="https://www.ucla.edu/">UCLA</a></span></div>
+                        </div>
+                    
+                        <div class="location-category-2870 views-row">
+                            <div class="views-field views-field-title"><span class="field-content"><a href="https://www.ucmerced.edu/">UC Merced</a></span> 
+                        </div>
+                        <div class="location-category-2870 views-row">
+                            <div class="views-field views-field-title"><span class="field-content"><a href="https://www.ucr.edu/">UC Riverside</a></span></div>
+                        </div>
+                    
+                        <div class="location-category-2870 views-row">  
+                            <div class="views-field views-field-title"><span class="field-content"><a href="https://ucsd.edu/">UC San Diego</a></span></div>
+                        </div>
+                    
+                        <div class="location-category-2870 views-row">
+                            <div class="views-field views-field-title"><span class="field-content"><a href="https://www.ucsf.edu/">UC San Francisco</a></span></div>
+                        </div>
+                        <div class="location-category-2870 views-row">
+                            <div class="views-field views-field-title"><span class="field-content"><a href="https://www.ucsb.edu/">UC Santa Barbara</a></span></div>
+                        </div>
+                        <div class="location-category-2870 views-row">
+                            <div class="views-field views-field-title"><span class="field-content"><a href="https://www.ucsc.edu/">UC Santa Cruz</a></span></div>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div><hr>      -->
+
+            <!-- <div class="dropdown">
+                <button class="dropbtn">Campuses</button>
+                <div class="dropdown-content">
+                  <a href="https://www.berkeley.edu/">UC Berkeley</a>
+                  <a href="https://www.ucdavis.edu/">UC Davis</a>
+                  <a href="https://uci.edu/">UC Irvine</a>
+                  <a href="https://www.ucla.edu/">UCLA</a>
+                  <a href="https://www.ucmerced.edu/">UC Merced</a>
+                  <a href="https://www.ucr.edu/">UC Riverside</a>
+                  <a href="https://ucsd.edu/">UC San Diego</a>
+                  <a href="https://www.ucsf.edu/">UC San Francisco</a>
+                  <a href="https://www.ucsb.edu/">UC Santa Barbara</a>
+                  <a href="https://www.ucsc.edu/">UC Santa Cruz</a>
+                </div>
+              </div
+    <script src="input.js"></script> -->
+
+
+    <div id="accordion-div">
+        <span id="campus-text">Campus</span>
+      </div>
+      <div id="sub-menu">
+        <ul>
+          <li>UniCal</li>
+          <li>UniBen</li>
+          <li>UniIlorin</li>
+          <li>UniJos</li>
+          <li>UniIbadan</li>
+          <li>UniLag</li>
+          <li>UniUyo</li>
+          <li>UniMaid</li>
+        </ul>
+        <div></div>
+    </div><hr>
+
+
+
+    <script>
+        let accordionButton = document.getElementById('accordion-div')
+    
+        accordionButton.addEventListener('click', function (){
+          let panel = this.nextElementSibling;
+          let campus = this.children[0];
+          // console.log(campus);
+    
+          if (panel.style.display === "none") {
+            panel.style.display = "flex";
+            campus.style.fontSize = "45px";
+            
+          } else {
+            panel.style.display = "none";
+            campus.style.fontSize = "20px";
+          }
+        })
+      </script>
+</body>
+</html>

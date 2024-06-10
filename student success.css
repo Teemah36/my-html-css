@@ -1,0 +1,514 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* this part is for the navigation bar */
+.home{
+    background-color: #d1e70c;
+    color: #582222;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+} 
+
+   
+.home-bar a {
+    color: #832b2b;
+    text-decoration: none;
+    font-size: 2rem;
+    text-transform: uppercase; 
+} 
+  
+
+.nav-bars {
+    list-style-type: none;
+    padding: 0;
+    flex-wrap: wrap;
+    flex-direction: column;
+    column-count: 1;
+    margin-left: 13rem;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 1rem;
+    text-transform: capitalize;
+    font-size: 1.1rem;
+}
+
+.bar{
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+    margin-left: 20rem;
+}
+  
+.bar a, .nav a {
+    display: inline-block;
+    color: #6d0a0a;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.bar a:hover{
+    color: rgb(148 66, 66); 
+}
+
+.class{
+    margin-left: 13rem;
+    text-transform: capitalize;
+}
+
+.nav1 li a{
+    color: rgb(148, 66, 66);
+    font-size: 1.1rem;
+}
+.nav1 {
+    list-style-type: none;
+    display: flex;
+}
+
+.nav-dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.nav-dropdown ul {
+    display: none;
+    position: absolute; 
+    z-index: 1;
+    background-color: #f3d6d6;
+    /* min-width: */
+    box-shadow: 0 8px 16px 0 rgba(56, 10, 1, 0.849);
+} 
+
+.nav-dropdown:hover ul {
+    display: block;
+}
+
+.nav-dropdown ul li {
+    list-style: none;
+    text-decoration: none;
+    color: #000;
+} 
+
+.nav-dropdown ul li:hover {
+    background-color: #ddd;
+} 
+
+.nav-dropdown a {
+    display: block;
+    text-decoration: none;
+    color: #000;
+    padding: 10px 14px;
+}
+
+.nav-dropdown a:hover {
+    background-color: #ddd;
+} 
+
+/* this css is for class=student the z-index on the picture  */
+.z-index{
+    color: white;
+    background-color: rgb(1, 1, 36);
+    width: auto;
+    height: auto;
+    position: absolute;
+    left: 170px;
+    bottom: 15px;
+    z-index: 1;
+}
+
+/* this is for the three item in the html with class=corner */
+.corner{
+    background-color: #043258;
+    color: white;
+    line-height: 2rem;
+    font-size: 1.3rem;
+    display: flex;
+    padding-top: 4rem;
+    padding-bottom: 8rem;
+}
+
+.corner h1{ 
+    margin-left: 2rem;
+}
+
+.discover{
+    margin-left: 8rem;
+}
+
+
+/* this css is for item4 on the page */
+.item4{
+    background-color: #043258;
+    display: flex;
+    padding-left: 10rem;
+    margin-bottom: 3rem;
+    padding-bottom: 9rem;
+}
+
+.ebele p{
+    background-color: #edf5f5;
+    text-align: center;
+    font-size: large;
+    padding: 1.9rem;
+    margin-left: 7rem;
+    margin-right: 7rem;
+    line-height: 2rem;
+    height: 60%;
+}
+
+.student2{
+    margin-right: 10rem;
+}
+
+.fun{
+    background-color: #e7f707;
+    width: 100%;
+    height: 50%;
+    text-align: center;
+    font-size: 1.1rem;
+    padding: 3rem 1rem;
+    margin-bottom: 14rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+
+/* this css is for item5 */
+.item5{
+    background-color: rgb(240, 30, 100);
+    display: flex;
+    justify-content: space-between;
+}
+
+.first-gen{
+    padding-right: 1.7rem;
+    padding-left: 2rem;
+    font-size: 1.3rem;
+    margin-top: 4rem;
+    line-height: 3rem;
+}
+
+#but{
+    margin-top: 4rem;
+    margin-left: 6rem;
+}
+
+
+/* this css is fofr item6 */
+
+.item6{
+    background-color: rgb(5, 173, 240);
+    display: flex;
+    padding-top: 3rem;
+}
+
+.pipe{
+    font-size: 2rem;
+    margin-left: 4rem;
+}
+
+.line{
+    margin-left: 11rem;
+}
+
+#our{
+    margin-top: 2rem;
+}
+
+
+/* this is another section of program */
+.program{
+    background-color: rgb(5, 173, 240);
+    display: flex;
+    justify-content: space-between;
+    margin-top: -4rem;
+    padding: 9rem 5rem;
+    font-size: 20px;
+}
+
+.program h1{
+    font-size: 6rem;
+}
+
+/* this is stand  */
+.stand{
+    background-color: rgba(2, 90, 124, 0.932);
+    display: flex;
+    justify-content: space-around;
+}
+
+.with{
+    font-size: 19px;
+    padding-top: 9rem;
+    margin-left: 25px;
+    align-items: center;
+}
+
+.with h2{
+    font-size: 1.5rem;
+}
+
+#explore{
+    margin-top: 3rem;
+}
+
+.luis{
+    margin-left: 18rem;
+}
+
+/* this section is smile*/
+.smile {
+    background-color: white;
+    color: black;
+    text-align: center;
+    font-size: 18px;
+    padding-right: 6rem;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: column;
+    column-count: 2;
+}
+
+.smile h2{
+    text-justify: distribute;
+    align-items: center;
+}
+
+.smile img{
+    border-radius: 50%;
+}
+
+.smile h6{
+    margin-top: 2rem;
+}
+
+/* this section is for soldier img */
+.soldier{
+    background-color: #e7be07;
+    display: flex;
+}
+.military{
+    font-size: 1.9rem;
+    margin-right: 3rem;
+    padding-top: 5rem;
+}
+
+/* this section is for possibilities */
+.possibilities{
+    display: flex;
+    background-color: rgb(7, 7, 32);
+    color: white;
+    padding: 6rem;
+    font-size: 1.5rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.container{
+    display: flex;
+    background-color: #1e5080; 
+    font-size: 1.rem;
+    color: white;
+    justify-content: space-around;
+}
+
+.page h1{
+    font-size: 1.6rem;
+}
+.last-page{
+    font-size: 1.3rem;
+    line-height: 3rem;
+} 
+
+.pagelast{
+    padding-top: 9rem;
+} 
+
+.access a{
+    text-decoration: none;
+    color: white;
+}
+
+.page2{
+    display: flex;
+    justify-content: space-around;
+    font-size: 1rem;
+    padding-top: 10rem;
+    padding-bottom: 11rem;
+    line-height: 3rem;
+}
+
+.page2 a{
+    text-decoration: none;
+    color: white;
+}
+
+
+.page3{
+    padding-left: 3rem;
+}
